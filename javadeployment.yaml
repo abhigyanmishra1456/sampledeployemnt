@@ -24,7 +24,7 @@ spec:
 apiVesrion: v1
 Kind: Service
 metadata:
- name: javawebappsvc.
+ name: javawebappsvc
 spec:
  type: LoadBalancer 
   selector:
