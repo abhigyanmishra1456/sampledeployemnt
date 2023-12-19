@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name= nodeapp
+ labels:
+  app: nodeapp
+spec:
+ conatainers:
+  -name: nodeapp
+   image: kamana/nodeapp:v1
+   ports:
+     -conatinerPort: 8080
